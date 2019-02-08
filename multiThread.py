@@ -43,7 +43,7 @@ def use_proxy(proxy_addr,url,type):
 #有时候关键字并不能准确获取具体内容，所以以关键字为起始进行位移获取内容
 def clearword(content,keyword,move):
 	content=content[content.find(keyword)+move:]
-returncontent
+	return content
 
 #此功能用于写入内容。传入内容列表和文件路径
 def save_dataToFile(contentlist,filepath):
